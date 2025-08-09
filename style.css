@@ -7,3 +7,17 @@ box-sizing: border-box;
 section {
     display: flex;
 }
+
+.sidebar {
+    background-color: yellowgreen;
+    padding: 20px;
+}
+
+.contact img {
+    width: 40px;
+    height: 40px;
+}
+
+.contact {
+    display: flex;
+}
