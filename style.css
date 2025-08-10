@@ -48,6 +48,7 @@ section {
 .chat-messages {
     padding: 20px;
     flex-direction: column;
+    gap: 10px;
    
 }
 
@@ -87,8 +88,9 @@ section {
 
 .received {
    padding: 10px;
-   border-radius: 15px;
+   border-radius: 10px;
    background-color: #ededed;
+   align-self: start;
    
 }
 
