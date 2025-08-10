@@ -9,8 +9,12 @@ section {
 }
 
 .sidebar {
-    background-color: white;
     padding: 20px;
+    width: 300px;
+}
+
+.contact-list {
+    padding: 5px;
 }
 
 .contact {
@@ -26,14 +30,20 @@ section {
 .top-margin {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
    
 }
 
 .chat-header {
    display: flex;
+   padding: 5px;
 }
 
 .chat-header img {
     width: 40px;
     height: 40px;
+}
+
+.chat-messages {
+    padding: 20px;
 }
