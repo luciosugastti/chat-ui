@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 section {
@@ -75,4 +76,25 @@ section {
 .chat {
     width: 60%;
     padding: 20px;
+}
+
+.sent {
+   align-self: end;
+   background-color: #e4f2f7 ;
+   padding: 10px;
+   border-radius: 15px;
+}
+
+.received {
+   padding: 10px;
+   border-radius: 15px;
+   background-color: #ededed;
+   
+}
+
+.timestamp {
+    font-size: 12px;
+    margin-top: 3px;
+    color: #989798;
+    
 }
