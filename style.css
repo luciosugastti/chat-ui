@@ -3,6 +3,8 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }
 
 section {
@@ -12,7 +14,7 @@ section {
 .sidebar {
     padding: 20px;
     width: 20%;
-    border-right: 1px solid #ddd
+    border-right: 1px solid #ddd;
 }
 
 .contact-list {
@@ -33,7 +35,6 @@ section {
 .top-margin {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     border-bottom: 1px solid #ddd;
    
 }
@@ -41,7 +42,6 @@ section {
 .chat-header {
    display: flex;
    padding: 20px;
-   background-color: #007f26;
    gap: 3px;
    
 }
@@ -110,4 +110,12 @@ section {
 .selected {
     background-color: #ededed;
     border-radius: 10px;
+}
+
+.search {
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
 }
