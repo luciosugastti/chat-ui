@@ -11,6 +11,8 @@ section {
 
 .sidebar {
     padding: 20px;
+    width: 20%;
+    border-right: 1px solid #ddd
 }
 
 .contact-list {
@@ -32,17 +34,22 @@ section {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    border-bottom: 1px solid #ddd;
    
 }
 
 .chat-header {
    display: flex;
-   padding: 5px;
+   padding: 20px;
+   background-color: #007f26;
+   gap: 3px;
+   
 }
 
 .chat-header img {
     width: 40px;
     height: 40px;
+    border-radius: 30px;
 }
 
 .chat-messages {
@@ -76,7 +83,6 @@ section {
 
 .chat {
     width: 60%;
-    padding: 20px;
 }
 
 .sent {
