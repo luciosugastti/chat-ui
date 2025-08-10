@@ -47,3 +47,23 @@ section {
 .chat-messages {
     padding: 20px;
 }
+
+.status-online::before {
+    content: "•";
+    color: green;
+    margin-right: 3px;
+}
+
+.status::before {
+    content: "•";
+    color: red;
+    margin-right: 3px;
+}
+
+.status {
+    color: grey;
+}
+
+.status-online {
+    color: gray;
+}
