@@ -98,3 +98,8 @@ section {
     color: #989798;
     
 }
+
+.selected {
+    background-color: #ededed;
+    border-radius: 10px;
+}
