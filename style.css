@@ -9,6 +9,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 section {
     display: flex;
+    
 }
 
 .sidebar {
@@ -87,7 +88,7 @@ section {
 }
 
 .chat {
-    width: 60%;
+    width: 100%;
 }
 
 .sent {
@@ -152,4 +153,9 @@ section {
 .chat-footer button {
     background-color: white;
     border: none;
+}
+
+.chat-footer {
+    margin-top: 25%;
+    
 }
