@@ -64,10 +64,10 @@ section {
 }
 
 .chat-messages {
-    padding: 20px;
+    padding: 10px;
     flex-direction: column;
     gap: 10px;
-   
+    border-right: 1px solid #ddd;
 }
 
 .status-online::before {
@@ -98,6 +98,8 @@ section {
 
 .chat {
     width: 100%;
+    margin-right: 10px;
+    
 }
 
 .sent {
