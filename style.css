@@ -24,9 +24,10 @@ section {
 
 .contact {
     display: flex;
-    width: 90%;
-    padding: 10px;
-    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    line-height: 15px;
 }
 
 .contact img {
@@ -69,22 +70,26 @@ section {
     content: "•";
     color: #007f26;
     margin-right: 3px;
+    font-size: large;
 }
 
 .status::before {
     content: "•";
     color: red;
     margin-right: 3px;
+    font-size: large;
 }
 
 .status {
     color: grey;
     font-size: 12px;
+    
 }
 
 .status-online {
     color: gray;
     font-size: 12px;
+   
 }
 
 .chat {
@@ -143,7 +148,7 @@ section {
 
 .enter-text {
     border-radius: 10px;
-    width: 100%;
+    width: 96%;
     border: 1px solid #ddd;
     height: 30px;
     padding: 17px;
