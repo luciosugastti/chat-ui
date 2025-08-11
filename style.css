@@ -3,13 +3,11 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 
 section {
-    display: flex;
-    
+    display: flex;    
 }
 
 .sidebar {
@@ -22,8 +20,7 @@ section {
     padding: 5px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    
+    gap: 12px;    
 }
 
 .contact {
@@ -45,7 +42,6 @@ section {
     justify-content: space-between;
     border-bottom: 1px solid #ddd;
     align-items: center;
-   
 }
 
 .chat-header {
@@ -54,7 +50,6 @@ section {
    gap: 3px;
    justify-content: space-around;
    align-items: center;
-   
 }
 
 .chat-header img {
@@ -86,20 +81,17 @@ section {
 
 .status {
     color: grey;
-    font-size: 12px;
-    
+    font-size: 12px;    
 }
 
 .status-online {
     color: gray;
-    font-size: 12px;
-   
+    font-size: 12px;   
 }
 
 .chat {
     width: 100%;
-    margin-right: 10px;
-    
+    margin-right: 10px;    
 }
 
 .sent {
@@ -149,7 +141,6 @@ section {
     width: 35px;
     height: 60px;
     font-size: 120%;
-
 }
 
 .enter-text {
