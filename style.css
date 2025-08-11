@@ -23,7 +23,9 @@ section {
 
 .contact {
     display: flex;
+    width: 90%;
     padding: 10px;
+    justify-content: space-around;
 }
 
 .contact img {
