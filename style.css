@@ -171,3 +171,7 @@ section {
     border-top: 1px solid #ddd;
     padding: 15px 0px;
 }
+
+main {
+    border-right: 1px solid #ddd;
+}
