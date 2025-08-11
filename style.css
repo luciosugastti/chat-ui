@@ -125,12 +125,29 @@ section {
 
 .chat-actions {
     display: flex;
-    height: 20px;
     align-items: center;
     gap: 6px;
 }
 
 .chat-actions button {
+    background-color: white;
+    border: none;
+    width: 35px;
+    height: 60px;
+    font-size: 120%;
+
+}
+
+.enter-text {
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 30px;
+    padding: 17px;
+    margin-left: 20px;
+}
+
+.chat-footer button {
     background-color: white;
     border: none;
 }
