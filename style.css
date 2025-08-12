@@ -182,6 +182,14 @@ main {
     border-right: 1px solid #ddd;
 }
 
+.chat-status {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 @media (max-width: 480px) {
     section {
         flex-direction: column
@@ -193,3 +201,15 @@ main {
         border-right: none;
         border-bottom: 1px solid #ddd;
         }
+
+    .chat {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .chat-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        padding: 10px;
+    }
