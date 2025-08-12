@@ -161,6 +161,17 @@ section {
     font-size: large;
 }
 
+.chat-footer button:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.chat-footer button:active {
+    transform: translateY(2px);
+}
+
 .chat-footer {
     margin-top: 25%;
     border-top: 1px solid #ddd;
@@ -170,3 +181,8 @@ section {
 main {
     border-right: 1px solid #ddd;
 }
+
+@media (max-width: 480px) {
+    section {
+        flex-direction: column
+    }
