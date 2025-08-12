@@ -186,3 +186,10 @@ main {
     section {
         flex-direction: column
     }
+
+     .sidebar {
+        width: 100%;
+        padding: 10px;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        }
