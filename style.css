@@ -239,3 +239,18 @@ main {
         width: 100%;
         justify-content: end;
     }
+
+    .enter-text {
+        width: 90%;
+    }
+
+    .chat-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .chat-footer button {
+        width: 10%;
+    }
